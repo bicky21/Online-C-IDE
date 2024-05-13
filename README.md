@@ -1,42 +1,46 @@
-# Online-Code-Compiler
-This project is an online compiler for C code. It allows users to write, compile, and run C programs directly in the browser. Users can also provide input to their programs, which is passed through the standard input (scanf) function. The project uses Node.js, Express.js, Socket.io, and CodeMirror for the backend, and Bootstrap for the frontend.
+# Online IDE for C
 
-**Setup:**
-**Clone the repository from GitHub:** git clone https://github.com/your-username/online-code-compiler.git
+This project is an online Integrated Development Environment (IDE) for the C programming language. It allows users to write, compile, and run C programs entirely within a web browser. The IDE provides features such as syntax highlighting, code completion, compilation, and execution capabilities.
 
-**Running the Server:**
+## Features
 
-**Start the server:** node server.js
+- **Syntax Highlighting:** The IDE highlights C syntax for improved readability.
+- **Code Completion:** Auto-completion suggests code snippets as you type, speeding up the coding process.
+- **Compilation:** Compile C programs directly within the browser.
+- **Execution:** Run compiled C programs and view the output.
+- **Error Checking:** Detect syntax errors and provide suggestions for correction.
+- **Debugging Tools:** Basic debugging features to aid in code troubleshooting.
 
-The server will be running at **http://localhost:3000**
+## Setup
 
-**Using the Application:**
+To run the Online IDE for C locally, follow these steps:
 
-Open your browser and navigate to http://localhost:3000
-Enter the filename for your C code
-Write your C code in the editor
-Click on the "**Compile**" button to compile the code
-If there are scanf statements in your code, input boxes will appear for entering values
-Click on the "Run" button to execute the code
-The output will be displayed below the code editor
+1. Clone the repository: `git clone https://github.com/your-username/online-ide-for-c.git`
+2. Navigate to the project directory: `cd online-ide-for-c`
+3. Install dependencies: `npm install`
+4. Start the server: `node server.js`
+5. Access the IDE in your browser at `http://localhost:3000`
 
-**Project Structure:**
+## Technologies Used
 
-**server.js:** Contains the Node.js server code
-**public/index.html:** Contains the frontend HTML code
-**public/script.js:** Contains the frontend JavaScript code
-**public/style.css:** Contains the CSS styles for the frontend
+- **Backend:** Node.js, Express.js, Socket.io
+- **Frontend:** Bootstrap, CodeMirror
 
-**Dependencies:**
+## Contributing
 
-**Express:** Web framework for Node.js
-**Socket.IO:** Real-time bidirectional event-based communication
-**Bootstrap:** Frontend framework for styling
-**CodeMirror:** In-browser code editor component
+Contributions to the Online IDE for C project are welcome! To contribute, please follow these steps:
 
-**Contributing:**
-Contributions are welcome! Fork the repository, make your changes, and submit a pull request.
-License:
-This project is licensed under the MIT License. See LICENSE for more details.
-Contact:
-For any questions or issues, please contact [bickyy54@gmail.com].
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature/your-feature`
+3. Commit your changes: `git commit -am 'Add new feature'`
+4. Push to the branch: `git push origin feature/your-feature`
+5. Submit a pull request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- Special thanks to [CodeMirror](https://codemirror.net/) for the in-browser code editor component.
+- Inspired by the need for a convenient online development environment for C programming.
